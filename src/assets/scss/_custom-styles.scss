@@ -10,6 +10,34 @@
 
 .nav-item-text {
   font-size: larger !important;
-  color: #74151f !important;
+  color: $primary !important;
   font-weight: $font-weight-medium;
+}
+
+.banner {
+  background-image: url("../img/png/banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 436px;
+  display: block;
+}
+
+.about-us {
+  p {
+    font-size: larger !important;
+    line-height: 3rem;
+  }
+}
+
+.btn-gray-rounded {
+  border: 7px solid gray;
+  border-radius: 7px;
+}
+
+.font-size-larger {
+  font-size: larger !important;
+}
+.font-size-large {
+  font-size: large !important;
 }

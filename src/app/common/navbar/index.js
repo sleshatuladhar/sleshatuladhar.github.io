@@ -4,7 +4,7 @@
 
 import React, { Component } from 'react'
 import logo from '../../../assets/img/png/logo.png';
-import { MDBIcon, MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink } from 'mdbreact';
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink } from 'mdbreact';
 
 class HeaderNavbar extends Component {
   render() {
@@ -14,13 +14,11 @@ class HeaderNavbar extends Component {
         light
         color='white'
         expand='md'
-        // fixed='top'
         sticky='top'
       >
         <MDBNavbarBrand className='mr-0 p-0 ml-5'>
           <img
             src={logo}
-            // onClick={() => this.props.history.push('/')}
             className='img-fluid cursor-pointer'
             alt='champions-of-nepal-health-logo'
           />

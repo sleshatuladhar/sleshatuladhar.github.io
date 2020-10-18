@@ -32,6 +32,10 @@ class Header extends Component {
         {/* header navigation */}
         <HeaderNavbar />
         {/* end header navigation */}
+
+        {/* banner */}
+        <div className='container-fluid banner'></div>
+        {/* end banner */}
       </header>
     );
   }

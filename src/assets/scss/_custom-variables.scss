@@ -15,3 +15,11 @@ $heading4: 1.875rem;
 $heading5: 1.5rem;
 $heading6: 1.125rem;
 $font-weight-medium: 500;
+
+// colors
+$primary: #c4224a;
+$primary-color: $primary;
+$primary-color-dark: darken($primary-color, 5%);
+$secondary: #74151f;
+$secondary-color: $secondary;
+$secondary-color-dark: darken($secondary-color, 5%);
