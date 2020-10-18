@@ -4,12 +4,14 @@
 
 import React, { Component } from 'react'
 import { MDBIcon } from 'mdbreact';
+import HeaderNavbar from '../navbar';
 
 class Header extends Component {
   render() {
     return (
-      //#region header top bar
+      //#region header
       <header>
+        {/* header top bar  */}
         <div className='container-fluid header-top-bar'>
           <div className='d-flex justify-content-between align-items-center mr-5 ml-5'>
             <span>
@@ -25,6 +27,11 @@ class Header extends Component {
             </span>
           </div>
         </div>
+        {/* end header top bar */}
+
+        {/* header navigation */}
+        <HeaderNavbar />
+        {/* end header navigation */}
       </header>
     );
   }
