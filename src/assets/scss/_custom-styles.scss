@@ -53,4 +53,17 @@
   color: white;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style: none;
+      line-height: 25px;
+      margin-bottom: 12px;
+      a {
+        color: white;
+      }
+    }
+  }
 }
