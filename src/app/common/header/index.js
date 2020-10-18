@@ -9,7 +9,6 @@ import HeaderNavbar from '../navbar';
 class Header extends Component {
   render() {
     return (
-      //#region header
       <header>
         {/* header top bar  */}
         <div className='container-fluid header-top-bar'>
