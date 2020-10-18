@@ -19,7 +19,7 @@ const AboutUs = (props) => {
         />
         <p className='text-justify ml-5'>
           Maitreya Bodhi Home Care and Service has been opened with the vision to provide the best Home Care Service and Clinic facilities to the elderly. After years of dreaming and planning with ideas, Dr. Sampurna Man Tuladhar took the initiative to convert a derelict garage with a tin roof and mudbrick walls to a spacious and geriatic friendly clinic. The main idea behind Maitreya Bodhi Home Care and Clinic was to send elderly parents to the clinic to spend some quality time while their family goes to work. However, we are still encouraging elders to spend their time in the clinic.
-            </p>
+        </p>
       </div>
     </div>
   );
