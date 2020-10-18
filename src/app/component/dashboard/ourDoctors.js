@@ -34,7 +34,7 @@ const OurDoctors = (props) => {
             </React.Fragment>
           ))}
       </div>
-      <div className='d-flex justify-content-center align-items-center'>
+      <div className='d-flex justify-content-center align-items-center mb-4'>
         <MDBBtn size='lg' color='secondary' className='rounded'>View All</MDBBtn>
       </div>
     </div>
