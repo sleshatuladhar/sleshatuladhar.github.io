@@ -1,0 +1,25 @@
+// Your custom variables
+
+// default image path
+$image-path: "../../img" !default;
+
+// font
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap");
+$base-font: "Heebo", sans-serif;
+
+// headings
+$heading1: 3rem;
+$heading2: 2.625rem;
+$heading3: 2.25rem;
+$heading4: 1.875rem;
+$heading5: 1.5rem;
+$heading6: 1.125rem;
+$font-weight-medium: 500;
+
+// colors
+$primary: #c4224a;
+$primary-color: $primary;
+$primary-color-dark: darken($primary-color, 5%);
+$secondary: #74151f;
+$secondary-color: $secondary;
+$secondary-color-dark: darken($secondary-color, 5%);
