@@ -10,7 +10,7 @@ import PublicLayout from './app/component/layout/public-layout';
 import AppRoute from './appRoute';
 
 const routes = (
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Switch>
       <AppRoute exact path="/" layout={MainLayout} component={Dashboard} />
       <AppRoute path="/dashboard" layout={MainLayout} component={Dashboard} />
