@@ -3,7 +3,7 @@
  */
 
 import React from 'react'
-import { HashRouter, HashRouter, Switch } from 'react-router-dom'
+import { HashRouter, Switch } from 'react-router-dom'
 import Dashboard from './app/component/dashboard';
 import MainLayout from './app/component/layout/main-layout';
 import PublicLayout from './app/component/layout/public-layout';
