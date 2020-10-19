@@ -1,8 +1,8 @@
 const path = require('path');
 
 module.exports = {
-  root: path.resolve(__dirname, '../', '../'),
-  outputPath: path.resolve(__dirname, '../', '../', 'build'),
-  entryPath: path.resolve(__dirname, '../', '../', 'src/index.js'),
-  templatePath: path.resolve(__dirname, '../', '../', 'public/index.html'),
+  // root: path.resolve(__dirname, '../', '../'),
+  output: path.resolve(__dirname, '../', '../', 'build'),
+  entry: path.resolve(__dirname, '../', '../', './src/index.js'),
+  // template: path.resolve(__dirname, '../', '../', 'public/index.html'),
 };
