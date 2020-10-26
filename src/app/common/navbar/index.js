@@ -16,7 +16,7 @@ class HeaderNavbar extends Component {
         expand='md'
         sticky='top'
       >
-        <MDBNavbarBrand className='mr-0 p-0 ml-5'>
+        <MDBNavbarBrand className='mr-0 p-0 ml-5' href='/'>
           <img
             src={logo}
             className='img-fluid cursor-pointer'
